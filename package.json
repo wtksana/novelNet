@@ -1,0 +1,26 @@
+{
+  "name": "novelnet",
+  "version": "1.0.0",
+  "description": "novel",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wtksana/novelNet.git"
+  },
+  "keywords": [
+    "novel"
+  ],
+  "author": "tt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wtksana/novelNet/issues"
+  },
+  "homepage": "https://github.com/wtksana/novelNet#readme",
+  "devDependencies": {
+    "electron": "^1.6.6"
+  }
+}

@@ -1,0 +1,99 @@
+/* Custom Properties */
+
+:root {
+  --color: hsl(0, 0%, 22%);
+  --color-subtle: hsl(0, 0%, 44%);
+  --color-strong: hsl(0, 0%, 11%);
+  --color-link: hsl(0, 0%, 22%);
+  --color-border: hsl(0, 0%, 88%);
+  --color-bg: hsl(0, 0%, 96%);
+  --color-accent: black;
+  /* Fallback */
+}
+
+html {
+  height: 100%;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  display: flex;
+}
+
+.nav-index {
+  width: 50px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: var(--color);
+  text-align: center;
+  padding: 5px;
+}
+
+.nav-index-btn {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.nav-index-font {
+  font-size: 32px;
+  color: hsl(0, 0%, 66%);
+}
+
+.nav-index-font:hover {
+  color: hsl(0, 0%, 88%);
+}
+
+.search-panel {
+  width: 200px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-right: 1px solid var(--color-border);
+  background-color: var(--color-bg);
+  padding: 5px;
+  /*flex: 1;*/
+}
+
+.default-hide {
+  display: none;
+}
+
+.index-panel {
+  width: 200px;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-right: 1px solid var(--color-border);
+  background-color: var(--color-bg);
+  padding: 5px;
+  /*flex: 1;*/
+}
+
+.novel-main {
+  position: relative;
+  overflow: hidden;
+  /*flex: 4;*/
+}
+
+.novel-title {
+  padding-bottom: 9px;
+  margin: 20px 20px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+
+.novel-content {
+  margin: 20px 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.novel-list {
+  padding-top: 9px;
+  margin-top: 10px;
+  border-top: 1px solid var(--color-border);
+}
