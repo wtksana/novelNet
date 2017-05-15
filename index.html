@@ -2,9 +2,9 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="assests/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assests/css/style.css">
-  <script src="assests/js/jquery-3.2.0.min.js"></script>
+  <link rel="stylesheet" href="./assests/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assests/css/style.css">
+  <script src="./assests/js/jquery-3.2.0.min.js"></script>
   <script>
     if (typeof module === 'object') {
       window.jQuery = window.$ = module.exports;
@@ -26,17 +26,14 @@
 
   <div class="search-panel default-hide">
     <div class="input-group">
-      <input type="text" class="form-control" placeholder="Search ...">
+      <input type="text" id="searchText" class="form-control" placeholder="Search ...">
       <span class="input-group-btn">
             <button class="btn btn-default" type="button" id="searchBtn"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
       </span>
     </div>
     <div class="novel-list">
       <div class="list-group">
-        <a href="#" class="list-group-item">
-          <h4 class="list-group-item-heading">item heading</h4>
-          <p class="list-group-item-text">...</p>
-        </a>
+        
       </div>
     </div>
   </div>
@@ -57,6 +54,7 @@
     </div>
   </div>
 </body>
-<script src="assests/js/index.js"></script>
+<script src="./process/js/index.js"></script>
+<script src="./process/js/searchBook.js"></script>
 
 </html>

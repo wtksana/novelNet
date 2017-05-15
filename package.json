@@ -22,5 +22,10 @@
   "homepage": "https://github.com/wtksana/novelNet#readme",
   "devDependencies": {
     "electron": "^1.6.6"
+  },
+  "dependencies": {
+    "art-template": "^4.9.1",
+    "cheerio": "^0.22.0",
+    "superagent": "^3.5.2"
   }
 }
