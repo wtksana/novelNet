@@ -16,15 +16,17 @@ function searchBook(text) {
             var $$ = cheerio.load(sres.text)
             // var items = []
             var result = $$('.result-game-item-detail');
-            var data = []
+            var data = new Object()
             if (result.length == 0) {
                 console.log('null')
             } else {
+                var titles = []
                 result.each(function (idx, element) {
                     var title = $$(element).find('.result-game-item-title-link').attr('title')
-                    data.push(title)
+                    titles.push(title)
                     console.log(title)
                 })
+                data.titles = titles
                 var html = template(__dirname + '/process/template/list-group.art', data)
                 $('.list-group').html(html)
             }
